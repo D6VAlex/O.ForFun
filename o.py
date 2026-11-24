@@ -28,7 +28,7 @@ def fuck_u():
 
 def where_is_my_name():
 
-    title = "By D6VAlex"
+    title = "By z01309z"
     names = []
 
     w, h = wtf()
@@ -78,7 +78,7 @@ def where_is_my_name():
             sys.stdout.write(
                 f"\033[{py};{px}H"
                 + what_do_u_wanna(c)
-                + "D6VAlex"
+                + "z01309z"
                 + R
             )
 
@@ -395,7 +395,7 @@ def keep_my_name(canvas, names, frame):
 
     for x, y, c in names:
 
-        for i, char in enumerate("D6VAlex"):
+        for i, char in enumerate("z01309z"):
 
             put(
                 canvas,
@@ -430,13 +430,13 @@ def render(canvas):
     sys.stdout.flush()
 
 
-def end_by_d6valex():
+def end_by_z01309z():
 
     fuck_u()
 
     w, h = wtf()
 
-    title = "End ByD6VAlex"
+    title = "End Byz01309z"
     hint = "Press Ctrl + C to cancel"
 
     x = max(1, (w - len(title)) // 2)
@@ -512,7 +512,7 @@ def what_a_mess():
 
             time.sleep(0.065)
 
-        end_by_d6valex()
+        end_by_z01309z()
 
     except KeyboardInterrupt:
         pass
